@@ -9,7 +9,7 @@ export const App = () => {
         style={{
           position: 'relative',
           top: '50%',
-          left: '42%',
+          left: '41%',
           transform: 'translate(-50, -50)',
         }}
       >
