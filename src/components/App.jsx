@@ -19,27 +19,9 @@ export const App = () => {
 
   return (
     <>
-      <h1
-        style={{
-          position: 'relative',
-          top: '50%',
-          left: '41%',
-          transform: 'translate(-50, -50)',
-        }}
-      >
-        Phonebook
-      </h1>
+      <h1 style={{ margin: '30px auto', maxWidth: '300px' }}>Phonebook</h1>
       <ContactsForm />
-      <h1
-        style={{
-          position: 'relative',
-          top: '50%',
-          left: '42%',
-          transform: 'translate(-50, -50)',
-        }}
-      >
-        Contacts
-      </h1>
+      <h2 style={{ margin: '30px auto', maxWidth: '300px' }}>Contacts</h2>
       <Filter />
       {isLoading && !error && <p>Loading...</p>}
 

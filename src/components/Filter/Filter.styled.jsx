@@ -10,6 +10,6 @@ export const Div = styled.div`
 
 export const Input = styled.input`
   padding: 5px;
-  border: 1px solid black;
-  border-radius: 15px;
+  border: 1 solid black;
+  border-radius: 10px;
 `;

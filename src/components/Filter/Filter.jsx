@@ -10,7 +10,7 @@ const Filter = () => {
   };
 
   return (
-    <Div style={{ margin: 'auto' }}>
+    <Div style={{ margin: ' auto' }}>
       <label htmlFor="filter">Find contacts by name</label>
       <Input type="text" name="filter" onChange={handleInputChange} />
     </Div>
