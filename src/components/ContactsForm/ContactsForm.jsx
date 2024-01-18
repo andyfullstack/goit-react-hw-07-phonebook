@@ -1,6 +1,5 @@
 import { useDispatch, useSelector } from 'react-redux';
 import { Button, Form, Input } from './ContactsForm.styled';
-
 import { selectContacts } from 'store/selectors';
 import { addContact } from 'store/operations';
 
@@ -21,7 +20,7 @@ const ContactsForm = () => {
       return;
     }
 
-    dispatch(addContact(name, number));
+    dispatch(addContact({ name, number }));
 
     e.target.reset();
   };
